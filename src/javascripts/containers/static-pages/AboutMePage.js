@@ -1,3 +1,9 @@
 import React from 'react';
 
-export default () => <div>About Me</div>
+const AboutMePage = () => (
+  <div>
+    {'About Me'}
+  </div>
+);
+
+export default AboutMePage;

@@ -1,3 +1,9 @@
 import React from 'react';
 
-export default () => <div>Contact Me</div>
+const ContactPage = () => (
+  <div>
+    {'Contact Me'}
+  </div>
+);
+
+export default ContactPage;

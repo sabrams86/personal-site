@@ -1,3 +1,9 @@
 import React from 'react';
 
-export default () => <div>Page Not Found</div>;
+const NoMatch = () => (
+  <div>
+    {'Page Not Found'}
+  </div>
+);
+
+export default NoMatch;
