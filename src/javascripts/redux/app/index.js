@@ -1,4 +1,4 @@
-import { fork } from 'redux-saga/effects';
+// import { fork } from 'redux-saga/effects';
 
 // Constants
 
@@ -24,8 +24,7 @@ export default (state = initialState, action) => {
 
 // Sagas
 
-export function* helloSaga() {
-  console.log('Hello Sagas!');
-}
+// export function* helloSaga() {
+// }
 
-export const sagas = [fork(helloSaga)];
+// export const sagas = [fork(helloSaga)];

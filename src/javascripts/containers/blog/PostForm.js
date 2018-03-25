@@ -21,7 +21,7 @@ class PostForm extends React.Component {
           </label>
           <Field
             component="input"
-            name="firstName"
+            name="title"
             type="text"
           />
         </div>
@@ -31,7 +31,7 @@ class PostForm extends React.Component {
           </label>
           <Field
             component="textArea"
-            name="lastName"
+            name="body"
             type="text"
           />
         </div>
